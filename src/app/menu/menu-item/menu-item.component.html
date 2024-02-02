@@ -1,0 +1,14 @@
+<li class="menu-item">
+    <button role="button">
+        <span class="menu-item-icon-wrapper">
+            <fa-icon class="menu-item-icon" [icon]="icon">
+            </fa-icon>
+        </span>
+        {{label}}
+
+        @if (badgeText) {
+            <span class="menu-item-badge">{{badgeText}}</span>
+        }
+
+    </button>
+</li>
